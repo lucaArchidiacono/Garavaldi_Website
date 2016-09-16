@@ -1,0 +1,32 @@
+{
+  "name": "garavaldi_website",
+  "version": "1.0.0",
+  "description": "Journal",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-install": "^0.6.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bower": "gulp bower",
+    "lint": "gulp lint",
+    "scripts": "gulp scripts",
+    "watch": "gulp watch",
+    "gulp": "gulp"
+  },
+  "author": "Luca Archidiacono",
+  "license": "ISC"
+}

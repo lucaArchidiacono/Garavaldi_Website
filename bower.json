@@ -1,0 +1,14 @@
+{
+  "name": "garavaldi_website",
+  "description": "Journal",
+  "main": "index.js",
+  "authors": [
+    "Luca Archidiacono"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
