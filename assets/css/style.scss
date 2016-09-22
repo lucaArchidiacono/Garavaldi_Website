@@ -1,0 +1,34 @@
+$font-stack:    Lobster, cursive;
+$bck-image-los-angeles: '../../assets/img/los_angeles.jpg';
+$bck-color: white;
+$white-sneaker: "../../assets/img/whiteBlack.jpg";
+$creamy-sneaker: "../../assets/img/creamyAF.jpg";
+$random1-sneaker: "../../assets/img/random1.jpg";
+$random2-sneaker: "../../assets/img/random2.jpg";
+
+
+body {
+    background: url($bck-image-los-angeles) no-repeat center fixed;
+}
+
+h1{
+    font: 200% $font-stack;
+}
+
+.container{
+    margin-top: 5%;
+    background-color: $bck-color;
+    border-radius: 15px;
+    position: center;
+    width: 80%;
+}
+
+/**
+
+.panel-body{
+    &#sneakers{
+        content: url($white-sneaker) url($creamy-sneaker) url($random1-sneaker) url($random2-sneaker);
+    }
+
+}
+*/
