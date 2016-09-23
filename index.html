@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="app">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link href="assets/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="dist/css/style.css" rel="stylesheet">
-    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/libs/angular/angular.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="app/components/home/homeController.js"></script>
-  </head>
-  <body>
-  <div class="container">
+    <script src="assets/js/scrollDown.js"></script>
+</head>
+<body>
+
+<div class="titleContent">
     <h1>Welcome</h1>
     <p>This is my Portfolio. Thanks for watching :D</p>
+</div>
+
+
+<section id="section04">
+    <a id="scrollButton" href=""><span></span></a>
+</section>
+<div id="container" class="container">
+    <br><br>
     <div class="panel-group">
-      <thumb-nails></thumb-nails>
+        <thumb-nails></thumb-nails>
     </div>
-  </div>
-  </body>
+</div>
+
+</body>
 </html>

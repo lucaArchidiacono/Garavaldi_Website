@@ -8,15 +8,22 @@
             brand:'<'
         },
         // Load the template
-        templateUrl: 'Garavaldi_Website/app/components/home/home.html',
+        templateUrl: './app/components/home/home.html',
         controller: function () {
             // A list of menus
-            this.sneaker = {
-                name: "Sneakers"
-            };
-            this.newyork ={
-                name: "New York"
-            };
+            this.newyork =[{
+                    link: "assets/img/beatifulManhattan.jpg"
+                },
+                {
+                    link: "assets/img/brooklynConnection.jpg"
+                },
+                {
+                    link: "assets/img/famousTaxi.jpg"
+                },
+                {
+                    link: "assets/img/timeSquare.jpg"
+                }
+            ];
         }
     });
 })();

@@ -1,92 +1,26 @@
-<div class="panel panel-default">
-    <div class="panel-heading" >Picture</div>
-    <div class="panel-body" id="pictures">
-        {{sneaker.name}}
-        <br><br>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/creamyAF.jpg" alt="">
-            </a>
+ <div class="panel panel-default">
+            <div class="panel-heading">Picture</div>
+            <div class="panel-body" id="pictures">
+                Selfmade New York Pictures
+                <br><br>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb" ng-repeat="links in $ctrl.newyork">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="{{links.link}}" alt="">
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/whiteBlack.jpg" alt="">
-            </a>
+        <div class="panel panel-default">
+            <div class="panel-heading">Video</div>
+            <div class="panel-body">
+                <iframe width="950" height="536" src="https://www.youtube.com/embed/6v2L2UGZJAM" frameborder="0"
+                        allowfullscreen></iframe>
+            </div>
         </div>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        <br><br>
-        New York
-        <br><br>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/architecture.jpg" alt="">
-            </a>
+        <div class="panel panel-default">
+            <div class="panel-heading">Audio</div>
+            <div class="panel-body">
+                <iframe width="100%" height="450" scrolling="no" frameborder="no"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/20192023&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/beatifulManhattan.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/brooklynConnection.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/famousTaxi.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/fromTheTop.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/manhattan.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/manhattan1.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/manhattan2.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/sunset.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/sunsetBlackWhite.jpg" alt="">
-            </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
-                <img class="img-responsive" src="assets/img/timeSquare.jpg" alt="">
-            </a>
-        </div>
-    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading">Video</div>
-    <div class="panel-body">Panel Content</div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading">Code</div>
-    <div class="panel-body">Panel Content</div>
-</div>
