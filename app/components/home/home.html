@@ -4,8 +4,8 @@
                 Selfmade New York Pictures
                 <br><br>
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb" ng-repeat="links in $ctrl.newyork">
-                    <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="{{links.link}}" alt="">
+                    <a class="thumbnail" href="{{links.link}}" data-lightbox="roadtrip" data-title="View New York">
+                        <img class="img-responsive" ng-src="{{links.link}}">
                     </a>
                 </div>
             </div>
@@ -20,7 +20,11 @@
         <div class="panel panel-default">
             <div class="panel-heading">Audio</div>
             <div class="panel-body">
-                <iframe width="100%" height="450" scrolling="no" frameborder="no"
-                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/20192023&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false"></iframe>
+                <iframe width="49%" height="450" scrolling="no" frameborder="no"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/135263478%3Fsecret_token%3Ds-pJnuS&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false">
+                </iframe>
+                <iframe width="49%" height="450" scrolling="no" frameborder="no"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/20192023&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false">
+                </iframe>
             </div>
         </div>

@@ -36,7 +36,6 @@ h1{
 #section04 span {
     position: absolute;
     top: 90%;
-    left: 50%;
     width: 24px;
     height: 24px;
     margin-left: -12px;
@@ -47,6 +46,7 @@ h1{
     -webkit-animation: sdb04 2s infinite;
     animation: sdb04 2s infinite;
     box-sizing: border-box;
+    margin-bottom: 50%;
 }
 @-webkit-keyframes sdb04 {
     0% {

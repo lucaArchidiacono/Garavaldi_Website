@@ -9,6 +9,7 @@
   "homepage": "",
   "devDependencies": {
     "angular": "^1.5.8",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "lightbox2": "^2.8.2"
   }
 }
