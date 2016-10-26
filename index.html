@@ -8,10 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
     <link href="dist/css/style.css" rel="stylesheet">
     <link href="assets/libs/lightbox2/dist/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
     <script src="assets/libs/jquery/dist/jquery.min.js"></script>
     <script src="assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/libs/angular/angular.min.js"></script>
+    <script src="app/app.js"></script>
     <script src="app/components/home/homeController.js"></script>
+    <script src="app/shared/footer/footerController.js"></script>
     <script src="assets/js/scrollDown.js"></script>
 </head>
 <body>
@@ -26,12 +29,11 @@
 <section id="section04">
     <a id="scrollButton" href=""><span></span></a>
 </section>
-<div id="container" class="container">
-    <br><br>
-    <div class="panel-group">
-        <thumb-nails></thumb-nails>
-    </div>
-</div>
+
+<thumb-nails></thumb-nails>
+
+<br><br>
+<footer-controller></footer-controller>
 
 <script src="assets/libs/lightbox2/dist/js/lightbox.min.js"></script>
 </body>

@@ -1,8 +1,8 @@
-(function(){
+(function () {
     'use strict';
-    var app = angular.module('app', []);
+    const app = angular.module('app');
 
-    app.component('footer', {
+    app.component('footerController', {
         templateUrl: './app/shared/footer/footer.html'
     });
 })();
