@@ -19,6 +19,21 @@ h1{
     font: 500% $font-stack;
 }
 
+li{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+
+#linkerAudio{
+    width:49%;
+}
+
+#rechterAudio{
+    width:49%;
+}
+
 .titleContent{
     margin-top: 5%;
     padding-bottom: 30%;
