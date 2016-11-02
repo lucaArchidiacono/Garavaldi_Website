@@ -9,6 +9,20 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var bower = require('gulp-bower');
 var install = require("gulp-install");
+var webserver = require('gulp-webserver');
+
+gulp.task('webserver', function() {
+    gulp.src('./')
+        .pipe(webserver({
+            livereload: true,
+            directoryListing: true,
+            open: true,
+            directoryListing: {
+                enable: true,
+                path: 'index.html'
+            }
+        }));
+});
 
 gulp.task('installieren', function(){
     return gulp.src(['./bower.json', './package.json'])
