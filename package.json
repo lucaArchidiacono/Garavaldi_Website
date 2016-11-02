@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bower": "gulp bower",
+    "installieren": "gulp installieren",
     "lint": "gulp lint",
     "scripts": "gulp scripts",
     "watch": "gulp watch",

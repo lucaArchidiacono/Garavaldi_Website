@@ -8,9 +8,11 @@ var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var bower = require('gulp-bower');
+var install = require("gulp-install");
 
-gulp.task('bower', function() {
-    return bower();
+gulp.task('installieren', function(){
+    return gulp.src(['./bower.json', './package.json'])
+    .pipe(install());
 });
   
 // Lint Task
@@ -44,4 +46,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['bower','lint', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['installieren','lint', 'sass', 'scripts', 'watch']);
