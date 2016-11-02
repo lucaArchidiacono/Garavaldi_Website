@@ -11,40 +11,41 @@ var bower = require('gulp-bower');
 var install = require("gulp-install");
 var webserver = require('gulp-webserver');
 
-gulp.task('webserver', function() {
+gulp.task('webserver', function () {
     gulp.src('./')
         .pipe(webserver({
             livereload: true,
-            directoryListing: true,
-            open: true,
-            directoryListing: {
-                enable: true,
-                path: 'index.html'
-            }
+            fallback: "index.html",
+            port: 8080,
+            open: true
         }));
 });
 
-gulp.task('installieren', function(){
-    return gulp.src(['./bower.json', './package.json'])
-    .pipe(install());
+gulp.task('bower', function () {
+    return bower();
 });
-  
+
+gulp.task('installieren', function () {
+    return gulp.src(['./bower.json', './package.json'])
+        .pipe(install());
+});
+
 // Lint Task
-gulp.task('lint', function() {
+gulp.task('lint', function () {
     return gulp.src(['./assets/js/**/*.js', './app/shared/**/*.js', './app/components/js/**/*.js'])
         .pipe(jshint())
         .pipe(jshint.reporter('default'));
 });
 
 // Compile Our Sass
-gulp.task('sass', function() {
+gulp.task('sass', function () {
     return gulp.src('./assets/css/**/*.scss')
         .pipe(sass())
         .pipe(gulp.dest('dist/css'));
 });
 
 // Concatenate & Minify JS
-gulp.task('scripts', function() {
+gulp.task('scripts', function () {
     return gulp.src('./assets/js/**/*.js')
         .pipe(concat('all.js'))
         .pipe(gulp.dest('dist'))
@@ -54,10 +55,10 @@ gulp.task('scripts', function() {
 });
 
 // Watch Files For Changes
-gulp.task('watch', function() {
+gulp.task('watch', function () {
     gulp.watch(['./assets/js/**/*.js', './app/shared/**/*.js', './app/components/js/**/*.js'], ['lint', 'scripts']);
     gulp.watch('./assets/css/**/*.scss', ['sass']);
 });
 
 // Default Task
-gulp.task('default', ['installieren','lint', 'sass', 'scripts', 'watch', 'webserver']);
+gulp.task('default', ['installieren', 'lint', 'sass', 'scripts', 'watch', 'webserver']);

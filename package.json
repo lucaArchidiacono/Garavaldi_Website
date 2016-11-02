@@ -26,6 +26,7 @@
     "scripts": "gulp scripts",
     "watch": "gulp watch",
     "webserver": "gulp webserver",
+    "bower": "gulp bower",
     "gulp": "gulp"
   },
   "author": "Luca Archidiacono",
