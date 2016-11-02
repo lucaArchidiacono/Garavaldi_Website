@@ -60,4 +60,4 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['installieren','lint', 'sass', 'scripts', 'watch']);
+gulp.task('default', ['installieren','lint', 'sass', 'scripts', 'watch', 'webserver']);
