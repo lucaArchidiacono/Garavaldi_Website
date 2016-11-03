@@ -18,4 +18,7 @@ At the end, when everything is fine and downloaded, you should see now my page o
 If you don't wanna use node.js/gulp you can also run a local tomact server.
 Just create a new Server and let run it over the project Garavaldi_Website.
 
+And if you wanna run it without a local-Webserver. Please use firefox, safari and co. But not Google Chrome.
+I don't know why, but Google Chrome doesn't allow to run javascript locally.
+
 Have fun :)
