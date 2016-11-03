@@ -5,25 +5,26 @@
         <div class="panel panel-default">
             <div class="panel-heading">Protokoll</div>
             <div class="panel-body" id="pictures">
+                <div id="protokollLayout">
                 <h1>Arbeitsprotokoll</h1>
                 Hier wird beschrieben was ich (Luca Archidiacono) an den jeweiligen Tagen gemacht habe. Mein
                 Arbeitsprotokoll umfasst alle Tage an denen wir Zeit hatten zu arbeiten und eine Schlussreflexion.
                 <br><br>
                 <h2>03.10.2016</h2>
-                    Als wir zum ersten mal an unserem Projekt arbeiten durften, mussten wir Zuhause beginnen. Bevor ich
-                    anfing zu hacken und zu codieren, überlegte ich mir mein Konzept. Wie will ich arbeiten? Was will
-                    ich
-                    benutzen? Diese und andere Fragen stellte ich mir selbst.<br>
-                    Am schluss fiel die Entscheidung so aus:<br>
-                    Ich werde <a href="https://angularjs.org/">Angular JS</a>, <a href="http://sass-lang.com/">SCSS</a>,
-                    HTML5 und <a href="https://www.javascript.com/">Javascript</a> verwenden. Ich möchte zeigen, dass
-                    ich
-                    mit den momentanen Standart umgehen kann.<br>
-                    Für das ganze Frontend Build Mangament werde ich <a href="https://nodejs.org/en/">node.js</a> und <a
-                        href="http://gulpjs.com/">gulp</a> benutzen.<br>
-                    Als Versionsverwalter habe ich Github ausgewählt. Wieso? Es ist am meisten verbreitet, einfach und
-                    man
-                    kann es überall verwenden.<br><br>
+                Als wir zum ersten mal an unserem Projekt arbeiten durften, mussten wir Zuhause beginnen. Bevor ich
+                anfing zu hacken und zu codieren, überlegte ich mir mein Konzept. Wie will ich arbeiten? Was will
+                ich
+                benutzen? Diese und andere Fragen stellte ich mir selbst.<br>
+                Am schluss fiel die Entscheidung so aus:<br>
+                Ich werde <a href="https://angularjs.org/">Angular JS</a>, <a href="http://sass-lang.com/">SCSS</a>,
+                HTML5 und <a href="https://www.javascript.com/">Javascript</a> verwenden. Ich möchte zeigen, dass
+                ich
+                mit den momentanen Standart umgehen kann.<br>
+                Für das ganze Frontend Build Mangament werde ich <a href="https://nodejs.org/en/">node.js</a> und <a
+                    href="http://gulpjs.com/">gulp</a> benutzen.<br>
+                Als Versionsverwalter habe ich Github ausgewählt. Wieso? Es ist am meisten verbreitet, einfach und
+                man
+                kann es überall verwenden.<br><br>
                 <h2>24.10.2016</h2>
                 Für die meisten Sachen, wie zum Beispiel Angular JS, HTML, SCSS, Javascript und gulp musste ich kein
                 Knowledge sammeln. Das meiste habe ich bereits im Geschäft gelernt und musste es nur noch anwenden.
@@ -44,16 +45,42 @@
                 <br><br>
                 <h2>26.10.2016</h2>
                 Nachdem ich alles Nötige heruntergeladen habe, musste ich nur noch ein neues Repository in Github
-                erstellen.
+                erstellen. Als ich mit dem administrativem Zeug fertig war, musste ich nur noch programmieren.
                 <br><br>
                 <h2>27.10.2016</h2>
+                Heute bin ich mit meiner Home-View fertig geworden. Ich hatte einige Probleme mit Angular JS. Die
+                Probleme konnte ich durch googlen und probieren, lösen. Mein Problem war, dass ich nicht zwei Direktiven
+                gleichzeitig laufen lassen konnte. Aus diesem Grund habe ich eine allgemeine Direktive erstellt. Diese
+                Direktive heisst app.js und "handelt" mein ganzes Angular System. Ich habe versucht so wenig Code wie
+                nur
+                möglich zu schreiben. Zum Beispiel habe ich die Fotos, via ng-repeat in einem HTML-Element
+                hineingeladen. Hätte ich
+                es ohne ng-repeat gemacht, würde man 4 mal den gleichen HTML Code sehen. In der Direktive homeController
+                übergebe ich der homeView die links zu den Bildern.
                 <br><br>
                 <h2>28.10.2016</h2>
+                Weil ich mit der HomeView fertig bin, wollte ich noch einen Footer machen. Der Footer ist nicht im
+                components Verzeichnis da es überall verwendet werden soll. Somit habe ich ein shared Ordner gemacht.
+                Wieder habe ich ein FooterView und ein FooterController gemacht. Der Grund wieso ich immer einen Viewer
+                und einen Controller mache, ist, weil ich den index möglichst klein haben möchte. Ich rufe im index.html
+                den erfunden Tag auf und er lädt den ganzen Viewer hinein. Ich habe zum
+                Beispiel mein homeController "thumbNails" genannt. Und somit konnte ich die ganze HomeView mit dem
+                Aufruf des Tags "thumb-nails" in den index laden.
                 <br><br>
                 <h2>31.10.2016</h2>
+                Heute ist der letzte Tag an dem ich Zeit habe für mein Projekt. Ich habe versucht die errors sowie
+                warnings zu entfernen. Als ich damit fertig war, wollte ich das ganze mit einem Webserver verbinden.
+                Dafür benutzte ich gulp-webserver. Es ist ein Plugin von Gulp mit dem man einen localen Server einfach
+                und
+                schnell kreieren kann. Am Anfang hatte ich Probleme mit dem Aufruf des index.html. Der webserver
+                erkannte nie meinen Pfad. Die Lösung für dieses Problem ist simple, aber ich habe dennoch 30 min und
+                mehr dafür verbraucht. Nachdem ich mit dem auch fertig war, arbeitete ich noch an meinen gulpfiles. Ich
+                habe einen README.md geschrieben. Im <a href="https://www.dropbox.com/s/juba2ne46ktohsc/README.md?dl=0">README</a>
+                steht eine kurze Anleitung für jedermann.
                 <br><br>
                 <h1>Schlussreflexion</h1>
 
+                </div>
             </div>
         </div>
     </div>

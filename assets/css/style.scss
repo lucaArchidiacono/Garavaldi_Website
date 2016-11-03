@@ -15,6 +15,11 @@ body {
     background-size: cover;
 }
 
+#protokollLayout{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 #lisaSwag{
     height:200px;
 }
@@ -53,12 +58,12 @@ li{
 
 .titleContent{
     margin-top: 5%;
-    padding-bottom: 30%;
+
     text-align: center;
 }
 
 .container{
-    margin-top: 20%;
+    margin-top: 50%;
     background-color: $bck-color;
     border-radius: 15px;
     position: center;
@@ -78,7 +83,8 @@ li{
     -webkit-animation: sdb04 2s infinite;
     animation: sdb04 2s infinite;
     box-sizing: border-box;
-    margin-bottom: 50%;
+    top:60%;
+
 }
 @-webkit-keyframes sdb04 {
     0% {
