@@ -18,7 +18,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">Video</div>
             <div class="panel-body">
-                <video width="100%" poster="assets/img/PPAPimage.jpg" controls>
+                <video id="ppapVideo" poster="assets/img/PPAPimage.jpg" controls>
                     <source src="assets/audio/PPAP.mp4" type="video/mp4">
                     <source src="assets/audio/PPAP.ogg" type="video/ogg">
                 </video>
@@ -30,13 +30,14 @@
             <div class="panel-body">
                 <ul>
                     <li id="linkerAudio">
+                        <!-- Because it's a iframe I have to pass the height and width in the iframe element. I can't do that in css.-->
                         <iframe height="450" width="100%" scrolling="no" frameborder="no"
                                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/135263478%3Fsecret_token%3Ds-pJnuS&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false">
                         </iframe>
                     </li>
                     <li id="rechterAudio">
-                        <img src="assets/img/itsHellen.jpg" style="height: 419px; width: 100%;">
-                        <audio style="width: 100%" controls>
+                        <img src="assets/img/itsHellen.jpg" id="itsHellenPicture">
+                        <audio id="itsHellenAudio" controls>
                             <source src="assets/audio/itsDifferent.mp3" type="audio/mpeg">
                             <source src="assets/audio/itsDifferent.ogg" type="audio/ogg">
                             Your browser does not support the audio element.
@@ -45,6 +46,5 @@
                 </ul>
             </div>
         </div>
-
     </div>
 </div>

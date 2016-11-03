@@ -15,7 +15,11 @@ body {
     background-size: cover;
 }
 
-h1{
+#lisaSwag{
+    height:200px;
+}
+
+#welcomeFont{
     font: 500% $font-stack;
 }
 
@@ -24,6 +28,19 @@ li{
     float: left;
     margin: 0;
     padding: 10px;
+}
+
+#ppapVideo{
+    width: 100%;
+}
+
+#itsHellenAudio{
+    width: 100%;
+}
+
+#itsHellenPicture{
+    height: 419px;
+    width: 100%;
 }
 
 #linkerAudio{
