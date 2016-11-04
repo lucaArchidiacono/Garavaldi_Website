@@ -1,7 +1,8 @@
 <div id="container" class="container">
     <br><br>
+    <!-- Das ganze Thumbnail und der ganze Homeinhalt ist hier drinnen. -->
     <div class="panel-group">
-
+        <!-- Hier befindet sich meine Bilder Gallerie. -->
         <div class="panel panel-default">
             <div class="panel-heading">Picture</div>
             <div class="panel-body" id="pictures">
@@ -15,6 +16,7 @@
             </div>
         </div>
 
+        <!-- Hier ist mein Lieblingsvideo. Achtung! Ohrwurm garantiert. -->
         <div class="panel panel-default">
             <div class="panel-heading">Video</div>
             <div class="panel-body">
@@ -25,12 +27,13 @@
             </div>
         </div>
 
+        <!-- Und hier noch meine eingebetteten Audio Dateien. Habe Soundcloud eingebunden und eine einfache MP3 Datei. -->
         <div class="panel panel-default">
             <div class="panel-heading">Audio</div>
             <div class="panel-body">
                 <ul>
                     <li id="linkerAudio">
-                        <!-- Because it's a iframe I have to pass the height and width in the iframe element. I can't do that in css.-->
+                        <!-- Weil es ein iFrane ist, musste ich die Grösse und Breite übergeben. Das iFrame element ist nicht lokal, es wird serverseitig berechnet. -->
                         <iframe height="450" width="100%" scrolling="no" frameborder="no"
                                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/135263478%3Fsecret_token%3Ds-pJnuS&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=false&amp;show_reposts=false&amp;visual=false">
                         </iframe>
