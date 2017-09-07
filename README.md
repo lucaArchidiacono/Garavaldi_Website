@@ -1,9 +1,5 @@
 **Welcome to the Portfolio from Luca Archidiacono.**
 
-My website: http://www.lb01.byethost7.com/?i=1
-
-
-
 Before you start with anything. Do you have node.js?
 If you don't have it, download: [Node.js](https://nodejs.org/en/)
 
