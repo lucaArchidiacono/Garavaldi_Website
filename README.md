@@ -24,3 +24,14 @@ For learning how to code with angular and work with node.js/gulp, I recommend yo
   - Creating a single page todo app with [Node.js and Angular](https://scotch.io/tutorials/creating-a-single-page-todo-app-with-node-and-angular)
   - Style guide for how to write [clean angular code](https://github.com/johnpapa/angular-styleguide/tree/master/a1)
   - For getting a better know how about [Gulp](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
+
+## Helping
+The plugin is purely free to use, but any kind of Ether fund for the hard work will be appreciated.
+
+Here my address:
+
+<img src="etherQR.png" height="256" width="256">
+
+```0x981740Bb869b1Fb93bDb766E13b34798E67d09B9```
+
+Thanks in advance.
