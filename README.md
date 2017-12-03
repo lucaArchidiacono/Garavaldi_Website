@@ -26,7 +26,7 @@ For learning how to code with angular and work with node.js/gulp, I recommend yo
   - For getting a better know how about [Gulp](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
 
 ## Helping
-The plugin is purely free to use, but any kind of Ether fund for the hard work will be appreciated.
+Any kind of Ether fund for the hard work will be appreciated.
 
 Here my address:
 
