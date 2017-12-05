@@ -30,8 +30,6 @@ Any kind of Ether fund for the hard work will be appreciated.
 
 Here my address:
 
-<img src="etherQR.png" height="256" width="256">
-
 ```0x992a99EF34afeb14133006631b69095C2C87BF6f```
 
 Thanks in advance.
